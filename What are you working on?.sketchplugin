@@ -1,0 +1,12 @@
+//(cmd l)
+#import 'lib/wo.main.js'
+
+if (!wo.sketch.readToken()) {
+    
+    wo.sketch.tokenPrompt()
+
+} else {
+
+    wo.sketch.workit();
+    
+}
