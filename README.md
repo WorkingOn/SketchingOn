@@ -24,6 +24,28 @@ SketchingOn is a quick way to share your work in progress to [WorkingOn](https:/
 3. Hit `Share'
 4. Hit 'Yeah' to confirm
 
+## Customizing the keyboard shortcut 
+
+If you'd like to use a hotkey other than `cmd + L` you can do so by following these steps: 
+
+1. If you're using Sketch 3, choose **Plugins › Reveal Plugins Folder…** to open it. If you're using Sketch 2, choose **Plugins › Custom Script…**, click the gear icon, and then choose **Open Plugins Folder**
+2. Open the **SketchingOn** folder
+3. Open the **What are you working on?.sketchplugin** file in a text editor 
+4. Change the first line that says ``// (cmd l)`` here are some examples:  
+``` 
+// (cmd shift w)   
+// (ctrl alt cmd w)  
+// (command option ')  
+// (command option r)  
+// (command alt r)  
+// (ctrl alt command m)  
+// (ctrl alt 5)  
+// (ctrl shift 0)  
+```  
+
+Feel free to reach out if you have any questions: hello@workingon.co
+
+
 ## License
 
 The MIT License (MIT)
