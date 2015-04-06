@@ -7,7 +7,11 @@ SketchingOn is a quick way to share your work in progress to WorkingOn. Simply p
 ## Installation
 
 1. [Download the latest version (SketchingOn.zip)](https://github.com/WorkingOn/SketchingOn/releases/latest)
-2. Copy the contents of the ZIP to your plugins folder. If you're using Sketch 3, choose **Plugins › Reveal Plugins Folder…** to open it. If you're using Sketch 2, choose **Plugins › Custom Script…**, click the gear icon, and then choose **Open Plugins Folder**.
+2. Copy the contents of the ZIP to your plugins folder. If you're using Sketch 3, choose **Plugins › Reveal Plugins Folder…** to open it. If you're using Sketch 2, choose **Plugins › Custom Script…**, click the gear icon, and then choose **Open Plugins Folder**.  
+3. Copy your token from here: [http://workingon.co/tools#sketch](http://workingon.co/tools#sketch)
+4. Open Sketch and click on the **Plugin** menu option
+5. Select SketchingOn then **Update API Token**
+6. Enter the token and hit **Save**
 
 ## Usage
 
