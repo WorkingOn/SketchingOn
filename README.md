@@ -1,7 +1,11 @@
+![SketchingOn](http://static.workingon.co/SketchingOn@2x.png)  
+
+
 # SketchingOn
 
 SketchingOn is a quick way to share your work in progress to WorkingOn. Simply press `cmd + L` to share the selected object.
 
+## Demo
 ![SketchingOn Example](http://static.workingon.co/sketchingon-example.gif)
 
 ## Installation
