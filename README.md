@@ -1,4 +1,4 @@
-![SketchingOn](http://static.workingon.co/SketchingOn@2x.png)  
+![SketchingOn](https://d2v9u84ve25q69.cloudfront.net/SketchingOn@2x.png)
 
 
 # SketchingOn
@@ -6,42 +6,42 @@
 SketchingOn is a quick way to share your work in progress to [WorkingOn](https://www.workingon.co). Simply press `cmd + L` to share the selected object.
 
 ## Demo
-![SketchingOn Example](http://static.workingon.co/sketchingon-example.gif)
+![SketchingOn Example](https://d2v9u84ve25q69.cloudfront.net/sketchingon-example.gif)
 
 ## Installation
 
 1. [Download the latest version (SketchingOn.zip)](https://github.com/WorkingOn/SketchingOn/releases/latest)
-2. Copy the contents of the ZIP to your plugins folder. If you're using Sketch 3, choose **Plugins › Reveal Plugins Folder…** to open it. If you're using Sketch 2, choose **Plugins › Custom Script…**, click the gear icon, and then choose **Open Plugins Folder**.  
-3. Copy your token from here: [http://workingon.co/tools#sketch](http://workingon.co/tools#sketch)
+2. Copy the contents of the ZIP to your plugins folder. If you're using Sketch 3, choose **Plugins › Manage Plugins...**  then click the gear in the lower left corner of the Preference window and click **Show Plugins Folder…** to open it. If you're using Sketch 2, choose **Plugins › Custom Script…**, click the gear icon, and then choose **Open Plugins Folder**.
+3. Copy your token from here: [https://www.workingon.co/plugin/sketch](https://www.workingon.co/plugin/sketch?ref=SketchingOn)
 4. Open Sketch and click on the **Plugin** menu option
 5. Select SketchingOn then **Update API Token**
 6. Enter the token and hit **Save**
 
 ## Usage
 
-1. Select any object or artboard 
+1. Select any object or artboard
 2. Hit `cmd + L` and you'll be prompted with "What are you working on?"
 3. Hit `Share'
 4. Hit 'Yeah' to confirm
 
-## Customizing the keyboard shortcut 
+## Customizing the keyboard shortcut
 
-If you'd like to use a hotkey other than `cmd + L` you can do so by following these steps: 
+If you'd like to use a hotkey other than `cmd + L` you can do so by following these steps:
 
 1. If you're using Sketch 3, choose **Plugins › Reveal Plugins Folder…** to open it. If you're using Sketch 2, choose **Plugins › Custom Script…**, click the gear icon, and then choose **Open Plugins Folder**
 2. Open the **SketchingOn** folder
-3. Open the **What are you working on?.sketchplugin** file in a text editor 
-4. Change the first line that says ``// (cmd l)`` here are some examples:  
-``` 
-// (cmd shift w)   
-// (ctrl alt cmd w)  
-// (command option ')  
-// (command option r)  
-// (command alt r)  
-// (ctrl alt command m)  
-// (ctrl alt 5)  
-// (ctrl shift 0)  
-```  
+3. Open the **What are you working on?.sketchplugin** file in a text editor
+4. Change the first line that says ``// (cmd l)`` here are some examples:
+```
+// (cmd shift w)
+// (ctrl alt cmd w)
+// (command option ')
+// (command option r)
+// (command alt r)
+// (ctrl alt command m)
+// (ctrl alt 5)
+// (ctrl shift 0)
+```
 
 Feel free to reach out if you have any questions: hello@workingon.co
 
