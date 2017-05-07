@@ -1,5 +1,5 @@
-#import 'lib/wo.utils.js'
-#import 'lib/wo.request.js'
+@import 'lib/wo.utils.js'
+@import 'lib/wo.request.js'
 
 var wo = wo || {};
 

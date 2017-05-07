@@ -1,1 +1,0 @@
-[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://www.workingon.co?ref=sketchingon"]]

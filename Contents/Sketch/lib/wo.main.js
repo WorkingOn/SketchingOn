@@ -1,9 +1,9 @@
-#import 'lib/wo.utils.js'
-#import 'lib/wo.request.js'
-#import 'lib/wo.ui.js'
-#import 'lib/wo.token.js'
-
 var wo = wo || {};
+@import 'lib/wo.utils.js'
+@import 'lib/wo.request.js'
+@import 'lib/wo.ui.js'
+@import 'lib/wo.token.js'
+
 
 var 
     API_URL = "https://api.workingon.co/",
@@ -11,8 +11,20 @@ var
     UPLOAD_URL = "https://api.cloudinary.com/v1_1/workingon/auto/upload";
 
 wo.sketch = function(){
+    var selection, doc; 
+
+    this.setContext = function(context){
+        this.selection = context.selection;
+        this.doc = context.document; 
+
+        selection = this.selection;
+        doc = this.doc;
+    
+    };
+
 
     this.workit = function(){
+
         var str = [], token = this.readToken(), filePaths=[], parent;
 
         parent = this.getParentItem();
@@ -78,6 +90,7 @@ wo.sketch = function(){
         }   
     }; //put your thing down...
 
+
     this.youSureTho = function(paths) {
         var eh = "Include this export?";
         
@@ -96,7 +109,6 @@ wo.sketch = function(){
     this.getParentItem = function() {
         var loop = [selection objectEnumerator]
         var parent = nil, next = nil, hasParent = false, parents = {}, d = 0, pstr = "", c= 0;
-
 
         while (parent = [loop nextObject]) {
             d = 1
@@ -147,7 +159,11 @@ wo.sketch = function(){
             copy = [originalSlice duplicate],
             rect = [[copy absoluteRect] rect];
 
-        slice = [MSExportRequest requestWithRect:rect scale:factor];
+        var slice = MSExportRequest.new(); 
+
+        slice.rect = rect; 
+        slice.scale = factor; 
+
         [copy removeFromParent];
 
         return slice;
@@ -236,7 +252,7 @@ wo.sketch = function(){
     };
 
     this.readToken = function() {
-
+    
         var token = new wo.token();
 
         var tokenString = token.get(TOKEN_PATH);
@@ -252,5 +268,6 @@ wo.sketch = function(){
 
     return this;
 }();
+
 
 

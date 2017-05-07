@@ -3,7 +3,7 @@ var wo = wo || {};
 wo.ui = function(){
 
     var 
-        _logo_url = "http://static.workingon.co/w.png",
+        _logo_url = "https://d38py4gr6h6pfb.cloudfront.net/w.png",
         _default_title = "WorkingOn";
 
     var _setIconFromURL = function(alert, str){

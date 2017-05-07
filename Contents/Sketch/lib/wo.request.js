@@ -1,4 +1,4 @@
-#import 'lib/wo.utils.js'
+@import 'lib/wo.utils.js'
 
 var wo = wo || {};
 

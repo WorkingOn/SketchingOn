@@ -1,3 +1,0 @@
-#import 'lib/wo.main.js'
-
-wo.sketch.tokenPrompt()

@@ -1,0 +1,34 @@
+{
+   "name" : "SketchingOn",
+   "identifier" : "com.sketchapp.sketchingon",
+   "version" : "1.1.0",
+   "description" : "WorkingOn Sketch integrations",
+   "authorEmail" : "hello@workingon.co",
+   "author" : "WorkingOn, Inc",
+   "homepage" : "https://github.com/workingon/sketchingon",
+
+   "commands" : [
+      {
+         "script" : "sketchingon.js",
+         "handler" : "shareWork",
+         "name" : "What are you working on?",
+         "description": "Share your work with your team on WorkingOn",
+         "identifier" : "share",
+         "shortcut": "cmd l",
+      },
+      {
+         "script" : "sketchingon.js",
+         "handler" : "updateToken",
+         "name" : "Update API Token",
+         "description": "Update WorkingOn API Token",
+         "identifier" : "updatetoken"
+      }
+   ],
+   "menu": {
+      "title": "SketchingOn",
+      "items": [
+         "share",
+         "updatetoken"
+      ]
+   }
+}
